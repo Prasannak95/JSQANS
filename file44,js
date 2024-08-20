@@ -1,0 +1,10 @@
+const firstName='Jatesh'
+const obj={
+    firstName:'Harshit',
+    age:20,
+    func:function(){
+        console.log(this.firstName)
+    }
+};
+
+obj.func()
